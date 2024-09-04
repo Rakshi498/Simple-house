@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+
+p {
+    font-size: 18px;
+    padding: 15px 0;
+}
+/* header */
+
+header {
+    background-image: url(simple-house-01.jpg)
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 80px;
+    box-shadow: 0 15px 15px(0, 0, 0, 0.06);
+}
+
+.header-logo  h4{
+    color: rgb(245, 231, 248);
+    font-size: 35px;
+    
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-list-nav ul{
+    display: flex;
+}
+
+.header-list-nav ul li {
+    list-style-type: none;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* welcome section */
+
+.welcome h1 {
+    font-size: 44px;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.welcome p{
+    display: inline-block;
+    width: 700px;
+    font-size: 20px;
+    text-align: center;
+    margin: 64px 400px;
+    line-height: 1.7;
+    letter-spacing: normal;
+
+}
+
+.big-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.welcome button {
+    width: 160px;
+    height: 40px;
+    background-color: #088178;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #faf6f6;
+    padding: 6px 15px;
+    border-radius: 8px;
+}
+
+button:hover,
+button:active {
+    background-color: black;
+}
+
+/* food section */
+
+.Menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 64px;
+    margin-left: 50px;  
+}
+
+.Dishes img{
+    border-radius: 10px;   
+}
+
+.Dishes {
+    width: 280px;
+    border: 1px solid #ebebeb;
+    padding: 14px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px (0, 0, 0, 0.02);
+    transition: box-shadow 0.3s;
+    position: relative ;
+}
+
+.Dishes:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Dishes span {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(74, 3, 69);
+}
+
+.price {
+    color:#088178;
+    font-weight: lighter;
+}
+
+/* testimonial section */
+
+.testimonial-section .testimonial-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(185, 221, 234);
+    margin: 24px 24px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.testimonial-box img {
+    width: 500px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.testimonial-text {
+    padding: 20px;
+}
+
+.testimonial-text h3 {
+    font-size: 44px;
+}
+
+.testimonial-text button {
+    width: 100px;
+    height: 40px;
+    background-color: #f1b4df;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.testimonial-text button:hover{
+    background-color:rgb(129, 203, 230);
+}
+
+footer {
+    margin: 24px 24px;
+}
+
+
